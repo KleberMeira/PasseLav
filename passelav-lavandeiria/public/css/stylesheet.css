@@ -1,0 +1,69 @@
+
+
+body{
+    background-color: whitesmoke;
+}
+
+
+/**
+*===============================================*
+*stylesheet menu
+*
+*===============================================*
+*/
+
+#principal{
+    position: fixed;
+    float: left;
+    width: 220px;
+    height: 100%;
+    border-right: 1px solid beige;
+    background-color: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+}
+
+#principal ul,
+#principal ul li{
+    list-style-type:none;
+    float: left;
+    width: 100%;
+}
+ 
+#principal ul li a{
+    float: left;
+    width: 100%;
+    height: 80px;
+    color: black;
+    border-bottom: 1px solid white;
+    
+}
+
+#principal ul li a i{
+    float: left;
+    width: 35px;
+    height: 50px;
+    color: inherit;
+    text-align: center;
+    line-height: 40px;
+    font-size: 2em;
+}
+
+#principal ul li a h3{
+    float: left;
+    height: 60px;
+    width: 50px;
+    color: inherit;
+}
+
+
+#principal ul li a:hover{
+    color: blue;
+}
+
+/**
+*===============================================*
+*stylesheet home
+*
+*===============================================*
+*/
+
