@@ -15,7 +15,8 @@
 <body>
     @include('templates.menu')
     @yield('conteudo-view')
-    @yield('js-view')
+    @include('templates.script')
 </body>
+    @include('templates.rodape')
 
 </html>

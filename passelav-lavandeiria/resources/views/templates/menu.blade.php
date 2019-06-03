@@ -1,29 +1,26 @@
 
-<nav id="principal">
-  <ul>
-      <li>
-          <a href="">
-              <i class="fas fa-coins"></i>
-              <h3>Promoções</h3>
-          </a>
-      </li>
-      <li>
-            <a href="">
-                <i class="fas fa-toolbox"></i>
-                <h3>Serviços</h3>
-            </a>
-      </li>
-      <li>
-            <a href="">
-                <i class="far fa-money-bill-alt"></i>
-                <h3>Creditos</h3>
-            </a>
-        </li>
-        <li>
-                <a href="">
-                    <i class="fas fa-users"></i>
-                    <h3>Sobre-nós</h3>
-                </a>
-        </li>
-  </ul>
-</nav>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#">PasseLav</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(atual)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Créditos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Serviços</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">Sobre-nós</a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+
+

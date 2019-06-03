@@ -13,6 +13,7 @@
 
 Route::get('/', ['uses' => 'Controller@home']);
 Route::get('/promocoes', ['uses' => 'Controller@promocoes']);
+Route::get('/credito', 'ControllerCreditos@lista');
 Route::get('/servicos', ['uses' => 'Controller@servicos']);
 Route::get('/contato', ['uses' => 'Controller@contato']);
 Route::get('/sobre', ['uses' => 'Controller@sobre']);

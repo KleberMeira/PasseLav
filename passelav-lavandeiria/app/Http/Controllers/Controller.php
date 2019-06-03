@@ -16,18 +16,18 @@ class Controller extends BaseController
     }
 
     public function promocoes(){
-        echo('Tela de Promocoes');
+        return view('user.promocoes');
     }
 
     public function servicos(){
-        echo('Tela de Servicos');
+        return view('user.servicos');
     }
 
     public function contato(){
-        echo('Tela de Contato');
+        return view('user.contato');
     }
 
     public function sobre(){
-        echo('Tela Sobre');
+       return view('user.sobre');
     }
 }
